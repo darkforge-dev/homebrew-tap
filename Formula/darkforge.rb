@@ -1,28 +1,28 @@
 class Darkforge < Formula
   desc "AI-powered development environment"
   homepage "https://darkforge.dev"
-  version "1.0.5"
+  version "1.0.6"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/darkforge-dev/darkforge/releases/download/v1.0.5/darkforge-darwin-arm64"
-      sha256 "40252f9bd59857cfe3a3b68aa443aabe5ddcde3890ab25bb74ac61e8201f9d9f"
+      url "https://github.com/darkforge-dev/darkforge/releases/download/v1.0.6/darkforge-darwin-arm64"
+      sha256 "be5cc79e2dabbdef43f6b11ace41db37b5bc50c4092560461dae6c085740ac74"
     end
     on_intel do
-      url "https://github.com/darkforge-dev/darkforge/releases/download/v1.0.5/darkforge-darwin-amd64"
-      sha256 "ecb66799513b6db1a5c20884f298e81cfc32b500dd44bd71fcc7611c4e448f76"
+      url "https://github.com/darkforge-dev/darkforge/releases/download/v1.0.6/darkforge-darwin-amd64"
+      sha256 "d85ea463b50b5d5e929eeac63203da2a6778525daf98ced63f18d08985246d51"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/darkforge-dev/darkforge/releases/download/v1.0.5/darkforge-linux-arm64"
-      sha256 "3efde3a0ba66360c88709c85a4fbe37eae6cfc6c46830a2140bfa44dbd131533"
+      url "https://github.com/darkforge-dev/darkforge/releases/download/v1.0.6/darkforge-linux-arm64"
+      sha256 "ee382bc8d3426b9d0ff79a04d99b60afd076e89de9cb035be58026842c1bf9d0"
     end
     on_intel do
-      url "https://github.com/darkforge-dev/darkforge/releases/download/v1.0.5/darkforge-linux-amd64"
-      sha256 "027fe77c1f26a48b4bfe7f6bdd903483fc04d39ff0c8ffa647440c47321e62cb"
+      url "https://github.com/darkforge-dev/darkforge/releases/download/v1.0.6/darkforge-linux-amd64"
+      sha256 "a964d416df29d95935ebea80876a23ee38c2dc198bec07c4af5c249bfb645313"
     end
   end
 
